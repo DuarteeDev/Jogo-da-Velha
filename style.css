@@ -9,7 +9,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+        background: linear-gradient(45deg, #3fc9f3, #4079f3, #4ce7e7, #a6c1ee);
         background-size: 400% 400%;
         animation: gradientBackground 8s ease infinite;
         font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -27,11 +27,11 @@
         padding: 30px;
         border-radius: 25px;
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-        border: 5px solid #ff6b6b;
+        border: 5px solid #56bfda;
     }
 
     h1 {
-        color: #ff6b6b;
+        color: #3f60a8;
         font-size: 3em;
         margin-bottom: 20px;
         text-shadow: 3px 3px 0 #ffd166;
@@ -49,16 +49,16 @@
         grid-template-rows: repeat(3, 100px);
         gap: 15px;
         margin: 30px auto;
-        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        background: linear-gradient(135deg, #3994e9, #fad0c4);
         padding: 20px;
         border-radius: 20px;
-        border: 3px solid #ffd166;
+        border: 3px solid #1039f1;
     }
 
     .cell {
         width: 100px;
         height: 100px;
-        border: 4px solid #ff6b6b;
+        border: 4px solid #64aeeb;
         border-radius: 15px;
         display: flex;
         justify-content: center;
@@ -73,7 +73,7 @@
 
     .cell:hover {
         transform: scale(1.05);
-        background: #ffeaa7;
+        background: #42cef1;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
 
@@ -84,13 +84,13 @@
     }
 
     .cell.o {
-        color: #ff6b6b;
+        color: #23a9ad;
         text-shadow: 2px 2px 0 #b33c3c;
         font-size: 60px;
     }
 
     button {
-        background: linear-gradient(135deg, #ff9a9e, #ff6b6b);
+        background: linear-gradient(135deg, #278596, #4da5d8);
         color: white;
         padding: 15px 30px;
         font-size: 1.2em;
@@ -108,7 +108,7 @@
     button:hover {
         transform: translateY(-3px);
         box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
-        background: linear-gradient(135deg, #ff6b6b, #ff9a9e);
+        background: linear-gradient(135deg, #5ac5f7, #387ee7);
     }
 
     button:active {
@@ -117,14 +117,14 @@
 
     #status {
         font-size: 1.5em;
-        color: #118ab2;
+        color: #ffffff;
         margin: 20px 0;
         font-weight: bold;
         text-shadow: 1px 1px 0 #ffffff;
-        background: #ffd166;
+        background: linear-gradient(135deg, #5ac5f7, #387ee7);
         padding: 10px 20px;
         border-radius: 25px;
-        border: 3px dashed #ff6b6b;
+        border: 3px dashed #267285;
     }
 
     /* Animações para as peças */
